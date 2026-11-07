@@ -4,9 +4,8 @@ import { LinkHub, type HubLink } from "./link-hub";
 // Tambah / hapus menu cukup di sini.
 // TODO: ganti "#" dengan URL asli.
 const links: HubLink[] = [
-  { title: "Booklet Tim Doreri Berseri", url: "#" },
+  { title: "Booklet Tim Doreri Berseri", url: "https://docs.google.com/document/d/1-fpF1hzHJu3wscroE4YctnDJJUPMaMfNEfBqdpCdwJw/edit?usp=sharing" },
   { title: "RAB", url: "#" },
-  { title: "Program Kerja", url: "#" },
   { title: "CV Anggota", url: "#" },
   { title: "Surat Komitmen", url: "#" },
 ];
@@ -28,11 +27,11 @@ export default function Home() {
 
       <LinkHub
         name="Doreri Berseri"
-        kkn="KKN Manokwari Menari"
-        tagline="Selamat Datang di Tanah Manokwari"
-        // avatar="/avatar.webp"
+        kkn="KKN Manokwari Menari 2027"
+        tagline="Selamat Datang di Bumi Manokwari"
+        avatar="/logo.webp"
         links={links}
-        // footerLink={{ title: "Lihat Booklet", url: "#" }}
+        footerLink={{ title: "Lihat Booklet", url: "#" }}
       />
     </main>
   );
