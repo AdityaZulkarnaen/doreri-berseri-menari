@@ -4,7 +4,7 @@ import { LinkHub, type HubLink } from "./link-hub";
 // Tambah / hapus menu cukup di sini.
 // TODO: ganti "#" dengan URL asli.
 const links: HubLink[] = [
-  { title: "Booklet Tim Doreri Berseri", url: "https://docs.google.com/document/d/1-fpF1hzHJu3wscroE4YctnDJJUPMaMfNEfBqdpCdwJw/edit?usp=sharing" },
+  { title: "Booklet Tim Doreri Berseri", url: "https://drive.google.com/file/d/1FjePVMPV5uRcqEGUH_IxyFvjCh97d_lX/view?usp=sharing" },
   { title: "RAB", url: "https://docs.google.com/spreadsheets/d/1_q6KglF5ekzRGTGaVKeAf_5Tn1UHoS7JjyBL82Rqbuk/edit?usp=sharing" },
   { title: "CV Anggota", url: "https://drive.google.com/drive/folders/1KGVVDnle0mvABolGVz5wPVPh8d6JIqAX?usp=sharing" },
   { title: "Surat Komitmen", url: "https://drive.google.com/drive/folders/1AEigxdR_QHKIMUHFfkqnqXc0_SQF3Mpl?usp=sharing" },
