@@ -5,9 +5,11 @@ import { LinkHub, type HubLink } from "./link-hub";
 // TODO: ganti "#" dengan URL asli.
 const links: HubLink[] = [
   { title: "Booklet Tim Doreri Berseri", url: "https://drive.google.com/file/d/1sd32J_Hj0ZV37KMFu5wXkyQRrI9YQ74S/view?usp=sharing" },
-  { title: "RAB", url: "https://docs.google.com/spreadsheets/d/1_q6KglF5ekzRGTGaVKeAf_5Tn1UHoS7JjyBL82Rqbuk/edit?usp=sharing" },
+  { title: "RAB", url: "https://docs.google.com/spreadsheets/d/1MlVJcGN_REsIxN9bYxv4esJzE2WY08K5mY0dtWSnGsU/edit?gid=1848094470#gid=1848094470" },
   { title: "CV Anggota", url: "https://drive.google.com/drive/folders/1KGVVDnle0mvABolGVz5wPVPh8d6JIqAX?usp=sharing" },
   { title: "Surat Komitmen", url: "https://drive.google.com/drive/folders/1AEigxdR_QHKIMUHFfkqnqXc0_SQF3Mpl?usp=sharing" },
+  { title: "Grand Plan Humas dan Publikasi", url: "https://docs.google.com/spreadsheets/d/1RZkf9b45WXvJ4ekWttKdrkfytQLBSaEnUJymKVVWyRk/edit?usp=drivesdk" },
+  { title: "Grand Plan Sponsorship", url: "https://docs.google.com/spreadsheets/d/1blpijwSleFCMqh4GMF7xly-skMkk7F1FTzxxGJ3uCmo/edit?gid=26592462#gid=26592462" },
 ];
 
 export default function Home() {
